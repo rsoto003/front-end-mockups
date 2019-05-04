@@ -15,8 +15,15 @@ body {
 }
 
 
-h1, h2, h3, h5 { 
+h1, 
+h2, 
+h3, 
+h5 { 
     color: #002b5a;   
+}
+h6 {
+    color: #4987ca;
+    font-size: 13px;
 }
 .state-finder {
     background-color: #EDEDED;
@@ -33,8 +40,27 @@ h1, h2, h3, h5 {
     margin-bottom: 5px;
 }
 
-.services {
-    background-color: #F4F4F4;
+.services, 
+.products {
+    background-color: #F3F3F3;
+}
+
+.services button {
+    background-color: #ffffff;
+    color: #002b5a;
+    font-size: 14px;
+    border-radius: 3px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0, 0.25), 0 2px #fff inset;
+}
+/* products section  */
+.product-drop {
+    width: 100px;
+    text-align: left;
+}
+
+.product-card p {
+    font-size: 13px;
+    color: #666666;
 }
 
 
