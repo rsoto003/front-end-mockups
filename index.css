@@ -13,6 +13,10 @@ html, body {
 .main-content {
     background-color: #E1E1E1;
 }
-h1, h2, h3 { 
-    color: #002b5a;
+h1, h2, h3, span { 
+    color: #002b5a;   
 }
+.state-finder {
+    background-color: #EDEDED;
+}
+
