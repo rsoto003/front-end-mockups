@@ -9,16 +9,16 @@ body {
 
 .banner-image {
     height: 400px; 
-    width: 100%;
     background-repeat: no-repeat;
     background-image: url(./images/banner.jpg);
+    background-size: cover;
 }
 
 
 h1, 
 h2, 
 h3, 
-h5 { 
+h5, { 
     color: #002b5a;   
 }
 h6 {
@@ -61,6 +61,11 @@ h6 {
 .product-card p {
     font-size: 13px;
     color: #666666;
+}
+
+.product-card {
+    /* color: #4987ca; */
+    font-size: 19px;
 }
 
 
