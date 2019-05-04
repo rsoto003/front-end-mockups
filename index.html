@@ -10,6 +10,9 @@
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="./index.js"></script>
+
     <title>Targem</title>
   </head>
   <body>
@@ -93,7 +96,6 @@
             <!-- services end-->
             <!-- products start-->
             <br>
-            <br>
             <div class="col-xl-8 col-lg-8 mx-auto products">
                 <div class="products-header row">
                     <h1 class="my-4 mx-3 col-xl-4 col">Products</h1>
@@ -111,18 +113,114 @@
                         </div>
                     </div>
                 </div>
+
                 <div class="row col-xl-12 col-lg-12 products-list">                
-                    <div class="col-xl-4 col-lg-4 pb-4 product-card">
-                            <h5>Product Title #1</h5>
-                            <h6>Starting at $500</h6>
-                            Vivamus at rutrum est, eu pellentesque lacus. Curabitur imperdiet tortor sit amet enim ullamcorper, a aliquet odio rutrum.
-                            <br>
-                            <button class="mt-3">Learn More ></button>
-                        </div>
+                    <div class="col-xl-3 col-lg-4 pb-4 product-card">
+                        <h5>Product Title 1</h5>
+                        <h6>Starting at $500</h6>
+                        Vivamus at rutrum est, eu pellentesque lacus. Curabitur imperdiet tortor sit amet enim ullamcorper, a aliquet odio rutrum.
+                        <br>
+                        <img src="./images/cereal_b.jpg" alt="" class="img-fluid mb-3">  
+                            <a 
+                                class="" 
+                                data-toggle="collapse" 
+                                href="#product1" 
+                                role="button" 
+                                aria-expanded="false" 
+                                aria-controls="multiCollapseExample1">
+                            Learn More >
+                            </a>
+
+                    </div>
+
+                    <div class="col-xl-3 col-lg-4 pb-4 product-card">
+                        <h5>Product Title 2</h5>
+                        <h6>Starting at 1900</h6>
+                        Vivamus at rutrum est, eu pellentesque lacus. Curabitur imperdiet tortor sit amet enim ullamcorper, a aliquet odio rutrum.
+                        <br>
+                        <img src="./images/flower_b.jpg" alt="" class="img-fluid mb-3">
+                        <a 
+                            class="" 
+                            data-toggle="collapse" 
+                            href="#multiCollapseExample1" 
+                            role="button" 
+                            aria-expanded="false" 
+                            aria-controls="multiCollapseExample1">
+                            Learn More >
+                        </a>
+                    </div>
+
+                    <div class="col-xl-3 col-lg-4 pb-4 product-card">
+                        <h5>Product Title 3</h5>
+                        <h6>Starting at $2730</h6>
+                        Vivamus at rutrum est, eu pellentesque lacus. Curabitur imperdiet tortor sit amet enim ullamcorper, a aliquet odio rutrum.
+                        <br>
+                        <img src="./images/machine_b.jpg" alt="" class="img-fluid mb-3">
+                        <a 
+                            class="" 
+                            data-toggle="collapse" 
+                            href="#multiCollapseExample1" 
+                            role="button" 
+                            aria-expanded="false" 
+                            aria-controls="multiCollapseExample1">
+                            Learn More >
+                        </a>
+                    </div>
+
+                    <div class="col-xl-3 col-lg-4 pb-4 product-card">
+                        <h5>Product Title 4</h5>
+                        <h6>Starting at $731</h6>
+                        Vivamus at rutrum est, eu pellentesque lacus. Curabitur imperdiet tortor sit amet enim ullamcorper, a aliquet odio rutrum.
+                        <br>
+                        <img src="./images/candy_b.jpg" alt="" class="img-fluid mb-3">
+                        <a 
+                            class="" 
+                            data-toggle="collapse" 
+                            href="#multiCollapseExample1" 
+                            role="button" 
+                            aria-expanded="false" 
+                            aria-controls="multiCollapseExample1">
+                            Learn More >
+                    </a>
+                    </div>
                 </div>
                 
             </div>
             <!-- products end--> 
+            <!-- dynamic product start-->
+            <div class="col-xl-8 col-lg-8 mx-auto product-showcase">
+                <div class="row col-xl-8 mt-3">
+                    <div class="col product-card">
+                        <div class="collapse multi-collapse" id="product1">
+                            <div class="card card-body col-xl-8 m-0 p-0">
+                                <div class="card-info col-xl-5">
+                                    <h2>Product Title 1</h2>
+                                    <h4>Starting at $500</h4>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste pariatur cum inventore dolore, doloremque, 
+                                        ullam expedita voluptatum delectus quis laudantium suscipit laboriosam fuga natus voluptates, tempora enim 
+                                        voluptate velit. Maiores perspiciatis, ullam consequatur animi iusto praesentium odit dolore totam labore 
+                                        ipsum ad obcaecati dolor assumenda magni eveniet modi quo id corrupti, illum doloribus libero nulla! 
+                                        Sapiente aperiam provident id assumenda! Ab laborum veniam amet adipisci. Doloribus adipisci dolor officia,
+                                        porro soluta fugiat iure vitae, neque libero veritatis eaque sapiente quidem exercitationem dolore obcaecati. 
+                                        Deleniti aspernatur ex tenetur porro libero placeat autem. Voluptas laborum libero vero natus officia, necessitatibus 
+                                        earum. Ut.
+                                    </p>
+                                    <p>
+                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste alias ea, modi enim nostrum nesciunt quaerat eaque, dicta 
+                                        odio fugiat provident dolore adipisci in atque a fuga sit ut et ipsum, nisi id optio? Magni voluptatum maxime dignissimos 
+                                        reprehenderit vero aut deserunt rerum labore necessitatibus expedita iusto, animi blanditiis officiis.
+                                    </p>
+                                </div>
+                                <div class="col-xl-5">
+                                    <img src="./images/cereal_b.jpg" alt="" class="img-fluid mb-3">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- dynamic end --> 
         </div>
         <!-- end main content-->
     </div>
