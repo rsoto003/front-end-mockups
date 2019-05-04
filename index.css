@@ -1,22 +1,40 @@
-html, body {
+body {
     font-family: 'Lato', sans-serif;
     width: 100%;
     margin: 0;
     padding: 0;
-}
-
-.banner-image img{
-    width: 100%;
-    margin: 0;
-}
-
-.main-content {
     background-color: #E1E1E1;
+    font-weight: 100;
 }
-h1, h2, h3, span { 
+
+.banner-image {
+    height: 400px; 
+    width: 100%;
+    background-repeat: no-repeat;
+    background-image: url(./images/banner.jpg);
+}
+
+
+h1, h2, h3, h5 { 
     color: #002b5a;   
 }
 .state-finder {
     background-color: #EDEDED;
+    height: 175px;
+    border-radius: 1px;
+    padding: 4px;
 }
+.state-finder h1 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.state-finder p {
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+.services {
+    background-color: #F4F4F4;
+}
+
 
