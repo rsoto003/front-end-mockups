@@ -1,0 +1,18 @@
+html, body {
+    font-family: 'Lato', sans-serif;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.banner-image img{
+    width: 100%;
+    margin: 0;
+}
+
+.main-content {
+    background-color: #E1E1E1;
+}
+h1, h2, h3 { 
+    color: #002b5a;
+}
