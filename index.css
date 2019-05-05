@@ -4,7 +4,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #E1E1E1;
-    font-weight: 100;
+    font-weight: 300;
 }
 /* need to fix for mobile  */
 .banner-image {
@@ -14,7 +14,6 @@ body {
     background-size: cover;
     background-position: right;
 }
-
 
 h1, 
 h2, 
@@ -28,9 +27,8 @@ h6 {
 }
 .state-finder {
     background-color: #EDEDED;
-    height: 175px;
+    height: 140px;
     border-radius: 1px;
-    padding: 4px;
 }
 .state-finder h1 {
     font-size: 20px;
