@@ -6,12 +6,13 @@ body {
     background-color: #E1E1E1;
     font-weight: 100;
 }
-
+/* need to fix for mobile  */
 .banner-image {
     height: 400px; 
     background-repeat: no-repeat;
     background-image: url(./images/banner.jpg);
     background-size: cover;
+    background-position: right;
 }
 
 
