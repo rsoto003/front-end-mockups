@@ -1,7 +1,7 @@
 $(document).ready(initializeApp);
 // $('.collapse').collapse();
 function initializeApp(){
-    console.log("states length: " + states.length);
+
 }
 
 var states = [
@@ -16,7 +16,7 @@ var states = [
         'Rhode Island','South Carolina','South Dakota','Tennessee',
         'Texas','Utah','Vermont','Virginia','Washington','West Virginia'
         ,'Wisconsin','Wyoming'
-    ]
+    ];
 
 
 

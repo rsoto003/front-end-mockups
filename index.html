@@ -116,16 +116,16 @@
                         All
                         </button>
                         <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                            <a class="dropdown-item" href="#">All</a>
-                            <a class="dropdown-item" href="#">$500 or less</a>
-                            <a class="dropdown-item" href="#">From $500 to $1000</a>
-                            <a class="dropdown-item" href="#">From $1000 to $2000</a>
-                            <a class="dropdown-item" href="#">$2000 or more</a>
+                            <a class="dropdown-item all" href="#products">All</a>
+                            <a class="dropdown-item cheap" href="#products">$500 or less</a>
+                            <a class="dropdown-item affordable" href="#products">From $500 to $1000</a>
+                            <a class="dropdown-item middle" href="#products">From $1000 to $2000</a>
+                            <a class="dropdown-item fancy" href="#products">$2000 or more</a>
                         </div>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-md-6 col-lg-6 col-xl-3 col-lg-3">
+                <div class="row" id="products">
+                    <div class="col-md-6 col-lg-6 col-xl-3 col-lg-3 all cheap affordable">
                         <div class="card mb-3">
                             <div class="card-body">
                                 <h5 class="card-title titles">Product Title 1</h5>
@@ -147,7 +147,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-6 col-xl-3 col-lg-3">
+                    <div class="col-md-6 col-lg-6 col-xl-3 col-lg-3 all middle">
                         <div class="card mb-3">
                             <div class="card-body">
                                 <h5 class="card-title titles">Product Title 2</h5>
@@ -170,7 +170,7 @@
                             </div>
                         </div>
                     </div>
-                        <div class="col-md-6 col-lg-6 col-xl-3 col-lg-3">
+                        <div class="col-md-6 col-lg-6 col-xl-3 col-lg-3 all fancy">
                             <div class="card mb-3">
                                 <div class="card-body">
                                 <h5 class="card-title titles">Product Title 3</h5>
@@ -192,7 +192,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-6 col-lg-6 col-xl-3 col-lg-3">
+                        <div class="col-md-6 col-lg-6 col-xl-3 col-lg-3 all affordable">
                             <div class="card mb-3">
                                 <div class="card-body">
                                 <h5 class="card-title titles">Product Title 4</h5>
@@ -261,8 +261,128 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="col product-card">
+                                <div class="collapse multi-collapse" id="product2">
+                                    <div class="row col-xl-12 m-0 p-0">
+                                        <div class="col-xl-6 col">
+                                            <h2 class="pt-5">Product Title 2</h2>
+                                            <h4 class="font-italic">Starting at 1900</h4>
+                                            <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia a porro, quam deserunt tempora tempore reprehenderit! 
+                                                Consequuntur iure reiciendis quasi odit facilis inventore rerum. Itaque officiis quae omnis aspernatur, perspiciatis delectus, 
+                                                quisquam eaque possimus vitae provident nam. Minus et, molestiae vel expedita laborum tempore iste possimus modi. Id quis consequuntur 
+                                                sit adipisci obcaecati eaque rem. Sit ipsa eum quidem quo laborum magni adipisci repellat accusamus, nulla quasi exercitationem nisi libero? 
+                                                Quidem repellendus ratione molestias vel illo sed, maiores, voluptatem eum laborum eos quia nobis architecto ut earum odio, sit nam! Optio, 
+                                                    eius harum. Atque, maiores? Non rem adipisci ea laboriosam.
+                                                </p>
+                                                <p>
+                                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste alias ea, modi enim nostrum nesciunt quaerat eaque, dicta 
+                                                    odio fugiat provident dolore adipisci in atque a fuga sit ut et ipsum, nisi id optio? Magni voluptatum maxime dignissimos 
+                                                    reprehenderit vero aut deserunt rerum labore necessitatibus expedita iusto, animi blanditiis officiis.
+                                                </p>
+                                                <p>
+                                                    <span class="badge badge-info mr-3 pr-2">1</span>
+                                                    Cras justo odio
+                                                </p>
+                                                <p>
+                                                    <span class="badge badge-info mr-3 pr-2">2</span>
+                                                    Cras justo odio
+                                                </p>
+                                                <p>
+                                                <span class="badge badge-info mr-3 pr-2">3</span>
+                                                Cras justo odio
+                                            </p>
+                                            <button type="button" class="mt-auto btn-block buyNow col-xl-4 p-1 mb-4">Buy Online ></button>
+    
+                                        </div>
+                                        <div class="col-xl-6 col pt-5 mt-5">
+                                            <img src="./images/flower_b.jpg" alt="" class="img-fluid mb-3">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col product-card">
+                                    <div class="collapse multi-collapse" id="product3">
+                                        <div class="row col-xl-12 m-0 p-0">
+                                            <div class="col-xl-6 col">
+                                                <h2 class="pt-5">Product Title 3</h2>
+                                                <h4 class="font-italic">Starting at $2730</h4>
+                                                <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia a porro, quam deserunt tempora tempore reprehenderit! 
+                                                    Consequuntur iure reiciendis quasi odit facilis inventore rerum. Itaque officiis quae omnis aspernatur, perspiciatis delectus, 
+                                                    quisquam eaque possimus vitae provident nam. Minus et, molestiae vel expedita laborum tempore iste possimus modi. Id quis consequuntur 
+                                                    sit adipisci obcaecati eaque rem. Sit ipsa eum quidem quo laborum magni adipisci repellat accusamus, nulla quasi exercitationem nisi libero? 
+                                                    Quidem repellendus ratione molestias vel illo sed, maiores, voluptatem eum laborum eos quia nobis architecto ut earum odio, sit nam! Optio, 
+                                                        eius harum. Atque, maiores? Non rem adipisci ea laboriosam.
+                                                    </p>
+                                                    <p>
+                                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste alias ea, modi enim nostrum nesciunt quaerat eaque, dicta 
+                                                        odio fugiat provident dolore adipisci in atque a fuga sit ut et ipsum, nisi id optio? Magni voluptatum maxime dignissimos 
+                                                        reprehenderit vero aut deserunt rerum labore necessitatibus expedita iusto, animi blanditiis officiis.
+                                                    </p>
+                                                    <p>
+                                                        <span class="badge badge-info mr-3 pr-2">1</span>
+                                                        Cras justo odio
+                                                    </p>
+                                                    <p>
+                                                        <span class="badge badge-info mr-3 pr-2">2</span>
+                                                        Cras justo odio
+                                                    </p>
+                                                    <p>
+                                                    <span class="badge badge-info mr-3 pr-2">3</span>
+                                                    Cras justo odio
+                                                </p>
+                                                <button type="button" class="mt-auto btn-block buyNow col-xl-4 p-1">Buy Online ></button>
+        
+                                            </div>
+                                            <div class="col-xl-6 col pt-5 mt-5">
+                                                <img src="./images/flower_b.jpg" alt="" class="img-fluid mb-3">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col product-card">
+                                    <div class="collapse multi-collapse" id="product4">
+                                        <div class="row col-xl-12 m-0 p-0">
+                                            <div class="col-xl-6 col">
+                                                <h2 class="pt-5">Product Title 4</h2>
+                                                <h4 class="font-italic">Starting at $731</h4>
+                                                <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia a porro, quam deserunt tempora tempore reprehenderit! 
+                                                    Consequuntur iure reiciendis quasi odit facilis inventore rerum. Itaque officiis quae omnis aspernatur, perspiciatis delectus, 
+                                                    quisquam eaque possimus vitae provident nam. Minus et, molestiae vel expedita laborum tempore iste possimus modi. Id quis consequuntur 
+                                                    sit adipisci obcaecati eaque rem. Sit ipsa eum quidem quo laborum magni adipisci repellat accusamus, nulla quasi exercitationem nisi libero? 
+                                                    Quidem repellendus ratione molestias vel illo sed, maiores, voluptatem eum laborum eos quia nobis architecto ut earum odio, sit nam! Optio, 
+                                                        eius harum. Atque, maiores? Non rem adipisci ea laboriosam.
+                                                    </p>
+                                                    <p>
+                                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste alias ea, modi enim nostrum nesciunt quaerat eaque, dicta 
+                                                        odio fugiat provident dolore adipisci in atque a fuga sit ut et ipsum, nisi id optio? Magni voluptatum maxime dignissimos 
+                                                        reprehenderit vero aut deserunt rerum labore necessitatibus expedita iusto, animi blanditiis officiis.
+                                                    </p>
+                                                    <p>
+                                                        <span class="badge badge-info mr-3 pr-2">1</span>
+                                                        Cras justo odio
+                                                    </p>
+                                                    <p>
+                                                        <span class="badge badge-info mr-3 pr-2">2</span>
+                                                        Cras justo odio
+                                                    </p>
+                                                    <p>
+                                                    <span class="badge badge-info mr-3 pr-2">3</span>
+                                                    Cras justo odio
+                                                </p>
+                                                <button type="button" class="mt-auto btn-block buyNow col-xl-4 p-1">Buy Online ></button>
+        
+                                            </div>
+                                            <div class="col-xl-6 col pt-5 mt-5">
+                                                <img src="./images/flower_b.jpg" alt="" class="img-fluid mb-3">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                     </div>
-                </div>
+
+                    
+<!--                
+                    
             </div>
             <!-- products end--> 
             <!-- dynamic product start-->
