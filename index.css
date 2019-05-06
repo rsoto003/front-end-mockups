@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+}
 body {
     font-family: 'Lato', sans-serif;
     width: 100%;
@@ -21,6 +24,7 @@ h3,
 h5, { 
     color: #002b5a;   
 }
+
 h6 {
     color: #4987ca;
     font-size: 13px;
@@ -42,10 +46,18 @@ h6 {
 .services, 
 .products {
     background-color: #F3F3F3;
+    
 }
+
 .serviceBtn {
-    height: ;
+    height: 0;
+    width: 50px;
 }
+
+div > .servicesCard {
+    height: 200px;
+}
+
 .services button {
     background-color: #ffffff;
     color: #002b5a;
@@ -69,4 +81,18 @@ h6 {
     font-size: 19px;
 }
 
+.titles {
+    color: #002b5a; 
+    /* margin: 25px 0px 0px 25px; */
+}
+.dynamic {
+    padding: 0;
+    background-color: #f9f9f9;
+}
 
+.services .buyNow {
+    background-color: #002b5a;
+    border-radius: 3px;
+    color: #ffffff;
+    font-size: 14px;
+}
